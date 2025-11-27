@@ -50,13 +50,35 @@ footer {
 	bottom: 0;
 	color: #fff;
 	font-size: 12px;
+	padding: 20px 20px;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+h1
+{font-size: 12px;}
 a[href="#"]{
 	text-decoration: none;
 	color: white;
 }
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	background-color: black;
+	color: white;
+	padding: 10px 10px;
+	font-size: 10px;
+}
+li {
+	text-align: center;
+	flex-basis: 70px;
+}
+
+.size {
+	font-size: 18px;
+}
+
 
 /* Sidebar */
 .sidebar {
@@ -71,9 +93,13 @@ a[href="#"]{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 10px;
-
+	min-height: 300px;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.sizeup {
+	font-size: 20px;
+
 }
 #logo {
 	width: 40px;
@@ -85,11 +111,6 @@ a[href="#"]{
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-
-.sidebar {
-	min-width: 80px;
-	min-height: 250px;
-}
 
 .reel-header {
 	min-height: 50px;
