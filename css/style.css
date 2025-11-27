@@ -79,6 +79,12 @@ li {
 	font-size: 18px;
 }
 
+img[src="./assets/img/+.png"]{
+	border-radius: 10px;
+    border-left: 2px solid #ff00ff;
+    border-right: 2px solid #00FFFF;
+
+}
 
 /* Sidebar */
 .sidebar {
