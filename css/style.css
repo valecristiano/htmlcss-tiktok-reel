@@ -31,9 +31,14 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-
+	color: white;
+	padding: 20px 20px;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+header>div {
+	display: flex;
+	justify-content: space-between;
 }
 
 /* Footer */
@@ -44,9 +49,13 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
+	font-size: 12px;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+a[href="#"]{
+	text-decoration: none;
+	color: white;
 }
 
 /* Sidebar */
@@ -55,29 +64,35 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	color: white;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 10px;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+#logo {
+	width: 40px;
+    border-radius: 120px;
+    border: 1px solid white;
 }
 
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
 
-.debug .sidebar {
+.sidebar {
 	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
+	min-height: 250px;
 }
 
-.debug .reel-header {
+.reel-header {
 	min-height: 50px;
-	border: 2px dashed #fff;
 }
 
 /* --------------------- */
